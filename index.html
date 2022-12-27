@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    body {
+      background-color: #d5e1ef;
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .center {
+      justify-content:center;
+      align-items:center;
+      padding-left: 295px;
+    }
+
+    .grid-layout {
+
+      display: grid;
+      grid-template-columns: 300px 300px;
+      
+    }   
+
+    .grid-item {
+      text-align: center;
+      display: block;
+      background-color: white;
+
+    }
+  </style>
+</head>
+<body>
+
+    <div class="grid-layout center" style="padding-top: 80px;">
+
+      <div class="grid-item" style="border-radius: 5% 5% 0% 0%;">
+        <img src="images/image-qr-code.png" alt="qr code" width="280px" height="280px" style="padding-top: 10px; border-radius: 5%;">
+      </div>
+      <br>
+      <div class="grid-item" style="border-radius: 0% 0% 5% 5%;">
+        <p style="padding: 10px 10px 5px 10px; font-weight: 700;">Improve your front-end skills by building projects</p>
+        <p style="font-size: 15px; padding: 0px 10px 20px 10px;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+
+    </div>
+
+  
+</body>
+</html>
